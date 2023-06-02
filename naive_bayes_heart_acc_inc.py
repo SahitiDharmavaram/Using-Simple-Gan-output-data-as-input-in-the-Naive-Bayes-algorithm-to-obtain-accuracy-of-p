@@ -8,7 +8,7 @@ import pandas as pd
 
 
 # Importing the dataset
-dataset = pd.read_csv('heart.csv')
+dataset = pd.read_csv('heart_data.csv')
 x = dataset.iloc[:, [1, 2, 3, 4, 5, 6, 7]].values 
 y = dataset.iloc[:, -1].values
 
