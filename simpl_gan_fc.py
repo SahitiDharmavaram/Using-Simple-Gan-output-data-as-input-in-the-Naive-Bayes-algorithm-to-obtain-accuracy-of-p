@@ -74,7 +74,7 @@ transforms = transforms.Compose(
 
 
 df = pd.read_csv(
-    "heart.csv", 
+    "heart_data.csv", 
     na_values=['NA', '?'])
 
 COLS_USED = ['age', 'sex', 'chest_pain', 'trestbps', 
